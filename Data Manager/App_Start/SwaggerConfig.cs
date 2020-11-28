@@ -4,6 +4,7 @@ using Data_Manager;
 using Swashbuckle.Application;
 using Data_Manager.App_Start;
 
+//comment out this line to disable swagger v
 [assembly: PreApplicationStartMethod(typeof(SwaggerConfig), "Register")]
 
 namespace Data_Manager
